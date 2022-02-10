@@ -1,0 +1,125 @@
+
+
+       
+body {
+    background-image: url('brickwall1.jpeg');
+    
+}
+
+img {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    Width: 800px;
+    height:500px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 2px;
+    
+
+}
+
+svg {
+    position:absolute;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: 80px;
+    height: 80vh;
+    width: 80vh;
+    Display: flex;
+    justify-content: flex-end;
+    align-items: right;
+
+}
+
+
+.sidebar{
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: black;
+    border-radius: 0 100px 0 0;
+    padding-top: 40px;
+    box-shadow: 3px 3px 3px 2px;
+    margin-left: -10px;
+    
+
+}
+.sidebar h2{
+    position: relative;
+    font-size: 3.5em;
+    font-weight: 800;
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0;
+    background:rgb(21, 21, 22);
+   
+
+}
+.sidebar h2:after{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 50px;
+    bottom: 2px;
+    background:rgb(21, 21, 22);
+    left: 30%;
+    border-radius: 50px;
+
+}
+.sidebar ol {
+    position: relative;
+    width: 100%;
+    display: block;
+    list-style-type: none;
+   
+
+}
+.sidebar ol li {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    text-emphasis-color: white;
+    
+    
+   }
+
+.sidebar ol li a {
+    display: block;
+    text-transform: capitalize;
+    color:#ffffff;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    margin: 20px 0; 
+    margin-top: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+.fa{
+    margin-right: 10px;
+
+    
+
+}
+.sidebar ol li a:hover{
+    background: url('brickwall1.jpeg');
+    border-left: 0px solid url('brickwall1.jpeg');
+    border-radius: 0 70px 0  ;
+    padding-top: 10px;
+   
+}
+.sidebar ol li a:hover:before{
+    position:absolute;
+    content:'';
+    height: 20px;
+    width: 10px;
+    right: 0;
+    bottom: 100%;
+    border-top-right-radius: 5px;
+    
+    
+
+}
